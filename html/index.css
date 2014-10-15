@@ -1,0 +1,175 @@
+*{margin:0;padding:0;}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#brand,#one-page,#wordpress,#freebies{
+	display: none;
+}
+
+.wrap {
+	width:980px;
+	margin: 0 auto;
+}
+
+.header{
+	height: 112px;
+	background-color: #ffffff;
+	/*background-color: #45224a;*/
+	/*width:980px;*/
+	/*border: 5px solid #fffffb;*/
+}
+
+.logo{
+	padding-left: 50px;
+	padding-top: 12px;
+	/*padding-bottom: auto;*/
+}
+
+.header-inner{
+	margin: 0 auto;
+	width: 980px;
+	/*height: 150px;*/
+}
+
+.head{
+	/*width: 980px;*/
+	margin: 0 auto;
+	background-color: #F7F7F7;
+}
+
+.slide{
+	width: 939px;
+	margin: 0 auto;
+	height: 329px;
+	padding: 0 auto;
+}
+
+.slide img{
+	width: 100%;
+}
+
+.pageleft{
+	width: 700px;
+	float: left;
+}
+
+.tabpage > a{
+	float: right;
+	
+	font-weight:bold;
+	font-family: Verdana;
+	text-decoration: none;
+	margin-left: 25px;
+	color:black;
+}
+
+a.active{
+	color:white;
+	background-color: #428bca;
+}
+
+.tabpage{
+	margin-left: 20px;
+	margin-top: 10px;
+	height: 30px;
+	border-bottom: 1px solid #fffffb;
+	box-shadow: 0px 1px 0px #d9d6c3;
+}
+
+.content{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 700px;
+	/*height: 500px;*/
+	/*background-color: black;*/
+}
+
+.item{
+	float: left;
+	width: 200px;
+	margin: 0px 10px 35px;
+}
+
+.item > img{
+	width: 100%;
+}
+
+.item h3{
+	margin: 0;
+}
+
+.item span img{
+	/*padding-top: 10px;*/
+}
+
+.item p{
+	color: #777;
+	font-size: 0.7em;
+	text-indent:0.5em;
+	margin-top: 0.5px;
+}
+
+.item h3{
+	font-size: 0.8em;
+	text-indent:0.8em;
+}
+
+.rank-title{
+	font-family: sans-serif;
+	font-weight:bold;
+}
+
+.pageright{
+	width: 280px;
+	float: right;
+	/*margin-left:30px;*/
+}
+
+.rank-wrap{
+	margin-top: 15px;
+	margin-left: 10px;
+	height: 25px;
+	box-shadow: 0px 2px 0px #F0EBEF;
+	width: 240px;
+	float: left;
+}
+
+.rank-title{
+	padding-bottom: 7px;
+	/*padding-left: 175px;*/
+	float: right;
+	box-shadow: 0px 2px 0px #2396EF;
+}
+
+.pageright .item{
+	margin: 10px 25px;
+	float: left;
+	border-bottom: 1px dashed #d9d6c3;
+	width: 260px;
+
+}
+
+.pageright .item-img{
+	width: 70px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.pageright .item img{
+	width: 100%;
+}
+
+.item h4{
+	font-size: 1em;
+	text-indent:0.3em;
+	margin: 10px 5px 2px;
+}
+
+
+/*unslide*/
+.slide { position: relative; overflow: auto; }
+    .slide li { list-style: none; }
+        .slide ul li { float: left; }
